@@ -23,6 +23,7 @@ brews:
     repository:
       owner: robmathews
       name: homebrew-tap
+      token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
     homepage: "https://github.com/robmathews/slackify-markdown"
     description: "Convert Markdown to Slack formatting"
     test: |
